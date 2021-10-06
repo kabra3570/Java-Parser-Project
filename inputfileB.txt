@@ -1,0 +1,23 @@
+Window "OtherWidgetsTest" (400,400) Layout Flow:Panel Layout Grid(5,1):
+Button "Button";
+Label "Label";
+Textfield 10;
+Panel Layout Flow:
+Panel Layout Grid(1, 6, 5, 5):
+Group
+Radio "1" ;
+Radio "2" ;
+Radio "3";
+Radio "4" ;
+Radio "5" ;
+Radio "6";
+End;
+End;
+End;
+Panel Layout Flow:
+Button "Double";
+Button "Nested";
+Button "Panel";
+End;
+End;
+End.
